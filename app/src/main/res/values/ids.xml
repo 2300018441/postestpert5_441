@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recycleView" type="id" />
+    <item name="postImage" type="id" />
+    <item name="imagePost" type="id" />
+    <item name="titlePost" type="id" />
+    <item name="etUsername" type="id" />
+    <item name="etCaption" type="id" />
+    <item name="btnAddImage" type="id" />
+    <item name="btnSave" type="id" />
+    <item name="imgPreview" type="id" />
+    <item name="imgPost" type="id" />
+    <item name="tvCaption" type="id" />
+    <item name="tvUsername" type="id" />
+    <item name="recyclerStories" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="fabAdd" type="id" />
+    <item name="imgAvatar" type="id" />
+    <item name="tvDescription" type="id" />
+    <item name="tvTitle" type="id" />
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <!-- Avatar Container dengan Ring -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="38dp"
+        app:cardElevation="0dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!-- Gradient Ring Background -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_story_ring"
+            android:padding="3dp">
+
+            <!-- White Inner Circle -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="35dp"
+                app:cardElevation="0dp"
+                android:layout_margin="3dp">
+
+                <!-- Avatar Image -->
+                <ImageView
+                    android:id="@+id/imgAvatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/amelia" />
+
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Username Text -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:textSize="11sp"
+        android:textColor="#262626"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:includeFontPadding="false" />
+
+</LinearLayout>

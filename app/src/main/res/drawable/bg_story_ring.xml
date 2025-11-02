@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Gradient border seperti Instagram -->
+    <gradient
+        android:angle="45"
+        android:startColor="#FFD521"
+        android:centerColor="#F7931E"
+        android:endColor="#E1306C"
+        android:type="linear" />
+
+    <!-- Padding untuk membuat ring effect -->
+    <size
+        android:width="70dp"
+        android:height="70dp" />
+
+</shape>
